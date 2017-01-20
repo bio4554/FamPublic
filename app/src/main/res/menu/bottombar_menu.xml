@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomBarItemProfile"
+        android:icon="@drawable/profile_fab_icon"
+        android:title="Profile" />
+    <item
+        android:id="@+id/bottomBarItemGroup"
+        android:icon="@drawable/message_fdraw"
+        android:title="Group" />
+
+    <item
+        android:id="@+id/bottomBarItemHome"
+        android:icon="@drawable/exit_group_fab"
+        android:title="Home" />
+</menu>

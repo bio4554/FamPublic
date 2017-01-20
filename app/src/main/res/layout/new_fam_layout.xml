@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/constraintLayout8">
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="47dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextNewFamName"
+        android:hint="fam name"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout8"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout8"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout8"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout8"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:text="create"
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+        android:id="@+id/textViewCreateNewFam"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNewFamName"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout8" />
+
+    <TextView
+        android:text="you are not in a fam, so you must either create a fam, or be added to an existing one
+
+        use the name below when asking your friends to add you"
+        android:layout_width="365dp"
+        android:layout_height="113dp"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout8"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout8"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout8"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNewFamName"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="347dp"
+        android:layout_height="51dp"
+        android:id="@+id/textViewCreateFamUserName"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout8"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout8"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNewFamName"
+        android:layout_marginBottom="8dp" />
+</android.support.constraint.ConstraintLayout>
